@@ -1,14 +1,9 @@
-import { Contador } from "./components/Contador"
-import { ContadorMejorado } from "./components/ContadorMejorado";
+import ShoppingCard from "./components/ShoppingCart";
 
 function App() {
   return (
     <div>
-      <h1>useReducer</h1>
-      <hr/>
-      <Contador/>
-      <hr/>
-      <ContadorMejorado/>
+      <ShoppingCard/>
     </div>
   );
 }
