@@ -19,8 +19,7 @@ export function shoppingReducer(state,action){
       let intemInCart = state.cart.find(item => item.id === newItem.id)
       
       return intemInCart ? {...state,cart:state.cart.map(item => item.id === newItem.id ? {...item,quantity:item.quantity + 1} : item)} : {...state,cart:[...state.cart,{...newItem,quantity:1}]}
-
-    }break
+    }
     case Types.REMOVE_ONE_FROM_CART:{
 
     }break

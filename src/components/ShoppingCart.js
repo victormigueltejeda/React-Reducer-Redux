@@ -20,7 +20,7 @@ const ShoppingCard = () =>{
 
   return(
     <div>
-      <h2>Carrito de Compras</h2>
+      <h2>Carrito De Compras</h2>
 
       <h3>Productos</h3>
       <article className="box grid-resposive">
